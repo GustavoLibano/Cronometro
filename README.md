@@ -1,18 +1,11 @@
-## Getting Started
+# Cronômetro Simples em Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um projeto simples de um cronômetro implementado em Java, que permite ao usuário iniciar, pausar, continuar e resetar o cronômetro diretamente no console. O programa foi desenvolvido como um exercício básico para praticar a manipulação de tempo e a interação com o usuário.
 
-## Folder Structure
+## Funcionalidades
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- **Iniciar**: Começa a contagem do cronômetro.
+- **Pausar**: Pausa a contagem e exibe o tempo até o momento.
+- **Continuar**: Retoma a contagem de onde foi pausada.
+- **Resetar**: Zera o cronômetro e começa novamente.
+- **Sair**: Encerra o programa.
